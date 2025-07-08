@@ -149,3 +149,5 @@ Jupyter Notebook
 100.0%
 Footer
 © 2025 GitHub, Inc.
+
+To read the full readme file please go to the original repository: 
