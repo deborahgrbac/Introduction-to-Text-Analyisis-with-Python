@@ -150,4 +150,4 @@ Jupyter Notebook
 Footer
 © 2025 GitHub, Inc.
 
-To read the full readme file please go to the original repository: 
+To read the full readme file please go to the original repository: https://github.com/ithaka/constellate-notebooks.
