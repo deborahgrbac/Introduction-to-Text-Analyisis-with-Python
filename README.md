@@ -1,6 +1,6 @@
 Constellate notebooks.
 This repository of Jupyter notebooks was designed by the educators at ITHAKA's Constellate project. The project was sunset on July 1, 2025. These notebooks are Open Educational Resources (OER), free for re-use under a Creative Commons CC BY License.
-This repository has been modified by Deborah Grbac for internal use at Università Cattolica del Sacro Cuore di Milano, email: deborah.grbac@unicatt.it
+This repository and this readme file have been modified by Deborah Grbac for internal use at Università Cattolica del Sacro Cuore di Milano, email: deborah.grbac@unicatt.it
 
 CC BY License Logo
 
@@ -43,18 +43,8 @@ We do not recommend Anaconda because it can be difficult to install, troubleshoo
 
 A better solution is Miniconda, which installs far fewer applications on the machine. However, the difficulty of installing Miniconda is similar to JupyterLab by itself.
 
-Using a local IDE for Jupyter notebooks
+Using a local IDE for Jupyter notebooks.
 If you are familiar with using the VS Code or Pycharm IDEs, they offer tooling for working with Jupyter notebooks. VS Code has native support for Jupyter notebooks. PyCharm is also a good solution for Jupyter notebooks. PyCharm has free version with basic Jupyter notebook support and a Pro version with advanced Jupyter notebook functionality that is free for teachers and students.
-
-Table of recommended local solutions
-Installation Method	Platform Support	Package Management	Pre-installed Libraries	GPU Support	Environment Management	Learning Curve	Best For
-Jupyterlab	Windows, macOS, Linux	pip	Basic	Yes	command line	Medium	Those comfortable with the command line and package management
-JupyterLab Desktop	Windows, macOS, Linux	Built-in	Basic	No	Limited	Very Low	Non-technical users, education
-Miniconda	Windows, macOS, Linux	Conda	Minimal (custom install)	Yes (with setup)	Conda environments	Medium	Customized environments, limited disk space
-PyCharm + Jupyter Support	Windows, macOS, Linux	Based on Python install	None	Yes (with setup)	Based on Python install	Medium	Developers already using PyCharm
-VSCode + Jupyter Extension	Windows, macOS, Linux	Based on Python install	None	Yes (with setup)	Based on Python install	Low	Developers already using VSCode
-Recommended cloud-based solutions for using Jupyter notebooks
-There is a diverse market for Jupyter notebook cloud-based solutions including free, paid, and hosted solutions. The tradeoffs generally come in terms of monthly costs and environment management. It is a good idea to see what resources your campus offers; you may already have access to free, managed solutions with IT support.
 
 GPU compute is not necessary
 There is no need to prioritize a cloud environment with GPU access for using these notebooks. These notebooks do not use a GPU directly, preferring to use GPU computation through APIs which are usually easier, faster, and cheaper. If you plan to train models, then an environment with GPU access may make sense.
@@ -62,7 +52,7 @@ There is no need to prioritize a cloud environment with GPU access for using the
 JupyterHub (the best solution)
 Project Jupyter offers a cloud-based solution with integrated JupyterLab called JupyterHub. While this is the best solution, it is impractical for most users to run their own JupyterHub since it requires server management expertise. However, many higher education institutions run their own JupyterHub servers, so it is worth investigating whether a JupyterHub server is available on your campus. Check with your local IT and ask colleagues working in data science to see if JupyterHub is available.
 
-CoCalc
+CoCalc.
 CoCalc has a unique user interface designed for collaboration and teaching. It is especially useful for mathematics and computer science education with support for grading, LaTex, and course management. CoCalc free tier is very limited. An instructor can expect to pay about $30/month for access.
 
 Anaconda Cloud
