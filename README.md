@@ -46,81 +46,72 @@ A better solution is Miniconda, which installs far fewer applications on the mac
 Using a local IDE for Jupyter notebooks.
 If you are familiar with using the VS Code or Pycharm IDEs, they offer tooling for working with Jupyter notebooks. VS Code has native support for Jupyter notebooks. PyCharm is also a good solution for Jupyter notebooks. PyCharm has free version with basic Jupyter notebook support and a Pro version with advanced Jupyter notebook functionality that is free for teachers and students.
 
-GPU compute is not necessary
+GPU compute is not necessary.
 There is no need to prioritize a cloud environment with GPU access for using these notebooks. These notebooks do not use a GPU directly, preferring to use GPU computation through APIs which are usually easier, faster, and cheaper. If you plan to train models, then an environment with GPU access may make sense.
 
-JupyterHub (the best solution)
+JupyterHub (the best solution).
 Project Jupyter offers a cloud-based solution with integrated JupyterLab called JupyterHub. While this is the best solution, it is impractical for most users to run their own JupyterHub since it requires server management expertise. However, many higher education institutions run their own JupyterHub servers, so it is worth investigating whether a JupyterHub server is available on your campus. Check with your local IT and ask colleagues working in data science to see if JupyterHub is available.
 
 CoCalc.
 CoCalc has a unique user interface designed for collaboration and teaching. It is especially useful for mathematics and computer science education with support for grading, LaTex, and course management. CoCalc free tier is very limited. An instructor can expect to pay about $30/month for access.
 
-Anaconda Cloud
+Anaconda Cloud.
 Anaconda Cloud may be a good solution if you are comfortable with Anaconda and/or conda package management. It is easy to share environments for reproducibility. There are collaboration features and version control available. A basic starter account is $15/month, but it is possible to get free access with an academic account.
 
-JupyterHub hosting through Hugging Face, Digital Ocean
+JupyterHub hosting through Hugging Face, Digital Ocean.
 If you are technically savvy, Hugging Face Spaces and Digital Ocean offer relatively easy ways to get JupyterHub running on a server. Plan on spending about $10/month for persistent storage and basic compute. The downside to this approach is you will need to be prepared to troubleshoot any platform issues. It is always a good practice to back up your notebooks to your local machine or a git repository, but this is especially important if you are new to server management.
 
-GitHub Codespaces IDE
+GitHub Codespaces IDE.
 If you would like a full, cloud-based IDE, then GitHub Codespaces offers cloud access to VS Code which has support for working with Jupyter notebooks. Choose this option if you are familiar with VS Code and you would benefit from a tight integration with GitHub.
 
-Not recommended cloud-based solutions
+Not recommended cloud-based solutions.
 Google Colab is a popular platform for using Jupyter notebooks because Google offers limited-access to GPU acceleration for model training. The Constellate notebooks do not include model training and do not require GPU acceleration. Instead, they use APIs to access GPU acceleration, which is often faster, easier, and cheaper.
 
 Outside of its limited, free GPU access, Google Colab is inferior to other cloud-based Jupyter notebook solutions. The user interface and functionality is closed, non-standard, and difficult to use for file management. Moreover, it lacks support for basic notebook features, including:
 
-Markdown local file access (no local notebook linking, no local image rendering)
-Only one notebook at a time (no tabs for opening multiple notebooks)
-No command line access (in the free tier)
-Notebooks developed for Colab often only work in Colab, locking users into the environment. Google Colab's architecture violates the FAIR principles of scientific data management.
+* Markdown local file access (no local notebook linking, no local image rendering)
+* Only one notebook at a time (no tabs for opening multiple notebooks)
+* No command line access (in the free tier)
+* Notebooks developed for Colab often only work in Colab, locking users into the environment. Google Colab's architecture violates the FAIR principles of scientific data management.
 
 Deepnote is a useful platform for data science professionals with some advanced functionalities for working collaboratively and accessing data repositories. The additional features make it better for working data scientists than teachers and learners.
 
 Binder is a free platform useful for demonstrating notebooks, but it has no persistent storage. The speed and availability are not reliable.
 
-Table of recommended cloud-based solutions
-Platform	Free Tier	Paid Options	GPU Support	Collaboration	Key Features	Best For
-Anaconda Cloud	Yes	Yes	No	No	Academic Accounts with 10 GB of Disk Space	Learning modules
-CoCalc	Limited free	Various plans ($14-$49/mo)	No	Yes (real-time)	Course management, LaTeX, R	Education, math-focused notebooks
-GitHub Codespaces	Yes	Yes	Yes	No	VS Code Jupyter environment in the cloud	VS Code users
-Hugging Face Spaces Hosted Jupyterlab	Yes	Yes	Available for cost	Yes	Hosting Jupyterlab	Basic hosting
-Package management
-Regardless of the solution you choose, you will need to become familiar with installing Python packages that these notebooks use. If you get an error that a package could not be imported when running a cell, that probably means it is not installed. You will need to install it (and may also need to restart the notebook kernel) before it will be recognized.
-
 There are two main package managers for working with Python: pip and conda. (More advanced projects may use virtual environment, such as venv or poetry.
 
-Pip
+Pip.
 Pip is the official Python package installer. Once Python is installed, you can generally use pip on the command line to manage packages.
 
 Installing a package
 pip install PACKAGENAME
 
-Update a package
+Update a package.
 pip install --upgrade PACKAGENAME
 
-Change to a particular version
+Change to a particular version.
 pip install --pip install --upgrade PACKAGENAME==3.2.16
 
 Pip documentation
 See the official pip documentation and/or the Python Package Index (PyPi)
 
-Conda
+Conda.
 The Conda package manager is usually part of an Anaconda solution, such as Anaconda Cloud, Anaconda, or Miniconda. It can be used from the command line, but there are also graphical ways to manage packages with Conda. See the particular documentation for the version of Anaconda you are using.
 
 Common text analysis packages used in these notebooks
-gensim - Create word embeddings, topic models, and other natural language processing outputs using modern statistical machine learning.
-matplotlib - Create static, animated, and interactive visualizations in Python.
-nltk (Natural Language Tool Kit) - Work with over 50 corpora and lexical resources, such as Wordnet. Deploy a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning.
-numpy - Speed up scientific analysis, taking advantage of large, multidimensional arrays and matrices.
-pandas - Automate high-performance analysis of structured (tabular, multidimensional, potentially heterogeneous) and time series data.
-pillow - A successor project that forked the Python Image Library (PIL) repository, Pillow has been adopted as a replacement for the original PIL.
-pyLDAvis - Visualize and transform topic models created with Latent Dirichlet Allocation.
-spaCy - Analyze 70+ languages with trained pipelines for different language tasks, including support for transformers, word vectors, embeddings, named entity recognition, part-of-speech tagging, dependency parsing, and more.
-tesseract-ocr - Convert images and pdfs into plain text in over 100 languages.
-vaderSentiment - Extract the sentiment of a text with a lexicon and rule-based tool.
-wordcloud - Visualize document word frequencies in artistic, customizable word clouds.
-Package versions used for these notebooks
-There is no need to install every package. This would use up significant space on your computer and lead to conflicts between different package versions. If you have installed enough packages that conflicts are arising between various package versions, it is a good idea to start using virtual environments with venv or poetry. If you can't get packages to work well together, here are the versions we used to create these notebooks:
+* gensim - Create word embeddings, topic models, and other natural language processing outputs using modern statistical machine learning.
+* matplotlib - Create static, animated, and interactive visualizations in Python.
+* nltk (Natural Language Tool Kit) - Work with over 50 corpora and lexical resources, such as Wordnet. Deploy a suite of text processing libraries for classification, tokenization, stemming, tagging, parsing, and semantic reasoning.
+* numpy - Speed up scientific analysis, taking advantage of large, multidimensional arrays and matrices.
+* pandas - Automate high-performance analysis of structured (tabular, multidimensional, potentially heterogeneous) and time series data.
+* pillow - A successor project that forked the Python Image Library (PIL) repository, Pillow has been adopted as a replacement for the original PIL.
+* pyLDAvis - Visualize and transform topic models created with Latent Dirichlet Allocation.
+* spaCy - Analyze 70+ languages with trained pipelines for different language tasks, including support for transformers, word vectors, embeddings, named entity recognition, part-of-speech tagging, dependency parsing, and more.
+* tesseract-ocr - Convert images and pdfs into plain text in over 100 languages.
+* vaderSentiment - Extract the sentiment of a text with a lexicon and rule-based tool.
+* wordcloud - Visualize document word frequencies in artistic, customizable word clouds.
+* Package versions used for these notebooks
+  There is no need to install every package. This would use up significant space on your computer and lead to conflicts between different package versions. If you have installed enough packages that conflicts are arising between various package versions, it is a good idea to start using virtual environments with venv or poetry. If you can't get packages to work well together, here are the versions we used to create these notebooks:
 
 beautifulsoup4==4.12.2 click==8.1.3 gensim==4.3.1 ipympl==0.9.3 jupyter-ai==2.19.1 jupyter-ai-magics==2.19.0 jupyterlab-git==0.50.0 matplotlib==3.8.4 numpy >=1.16 nltk==3.9.1 openai==1.51.0 pandas >=2.0.3 pillow==10.3.0 pyarrow==14.0.1 pyldavis==3.4.1 pytesseract==0.3.10 regex==2023.6.3 requests==2.32.3 scikit-learn==1.5.1 scipy==1.11.1 seaborn==0.12.2 spacy==3.5.4 urllib3==2.2.2 vadersentiment==3.3.2 wordcloud==1.9.2 zipp==3.19.2
 
