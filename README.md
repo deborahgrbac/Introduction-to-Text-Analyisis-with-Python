@@ -133,7 +133,7 @@ Common text analysis packages used in these notebooks
 * wordcloud==1.9.2
 * zipp==3.19.2
 
-About
+
 This repository contains Jupyter notebooks were created by ITHAKA for Constellate and last updated in June 2025. They should run in a local instance of Jupyter. Constellate was sunset on July 1st 2025. These notebooks have been modified and adapted according to local needs at Università Cattolica del Sacro Cuore di Milano.
 You can find the original Constellate repository at: https://github.com/ithaka/constellate-notebooks and a selection of class videos on our Youtube channel https://www.youtube.com/@Constellate_org that go with the notebooks.
 
@@ -141,15 +141,6 @@ Topics
 ithaka-owner-labs
 Resources
  Readme
- Activity
- Custom properties
-Stars
- 185 stars
-Watchers
- 12 watching
-Forks
- 223 forks
-Report repository
 Contributors
 7
 @nkelber
@@ -159,14 +150,10 @@ Contributors
 @mdlincoln
 @amykirchhoff
 @eskimoquinn
-Deployments
-130
- github-pages 2 years ago
-+ 129 deployments
+
 Languages
 Jupyter Notebook
 100.0%
-Footer
-© 2025 GitHub, Inc.
 
-NB: To read the full readme file please go to the original repository: https://github.com/ithaka/constellate-notebooks.
+
+NB: To read the full Constellate project readme file please go to the original repository: https://github.com/ithaka/constellate-notebooks.
