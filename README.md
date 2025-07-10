@@ -2,9 +2,8 @@ Constellate notebooks.
 This repository of Jupyter notebooks was designed by the educators at ITHAKA's Constellate project. The project was sunset on July 1, 2025. These notebooks are Open Educational Resources (OER), free for re-use under a Creative Commons CC BY License.
 This repository and this readme file have been modified by Deborah Grbac for internal use at Università Cattolica del Sacro Cuore di Milano, email: deborah.grbac@unicatt.it
 
-CC BY License Logo
+How to create a copy of these notebooks:
 
-Creating a copy of these notebooks
 These notebooks may be downloaded with your browser or cloned using git software.
 
 Download these notebooks in your browser
@@ -15,17 +14,17 @@ If you have git installed on the command line, these notebooks may be cloned usi
 
 If you are using a Git Desktop or some other graphical user interface, choose "clone" and supply the URL for this repository: https://github.com/ithaka/constellate-notebooks
 
-Using the notebooks
+Using the notebooks.
 The notebooks are written with Python and compatible with JupyterLab as of July 1, 2025. For best compatibility, we recommend using these notebooks on a local installation of JupyterLab. They should also work well on notebook platforms that faithfully reproduce the Jupyter notebook standard. We share some additional possibilities below.
 
-System specifications
+System specifications.
 For best results, we recommend a system meeting these specifications:
 
-Python 3.13+
-3.5+ GHz, 4-core CPU
-16+ GB RAM
-30+ GB Disk Space
-No GPU acceleration required
+* Python 3.13+
+* 3.5+ GHz, 4-core CPU
+* 16+ GB RAM
+* 30+ GB Disk Space
+* No GPU acceleration required
 Recommended local machine solutions for using Jupyter notebooks
 Local solutions can be classified into either JupyterLab or Integrated Development Environments (IDE)s. It can be difficult to install JupyterLab, so we share some recommended methods below. An IDE can be a more flexible tool than JupyterLab, and we make some recommendations of suitable IDEs below as well.
 
