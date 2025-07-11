@@ -1,6 +1,6 @@
 This repository is founded on Constellate notebooks.
 The original Jupyter notebooks repository was designed by the educators at ITHAKA's Constellate project. The project was sunset on July 1, 2025. This current repository  use and resuse Constellate notebooksare as Open Educational Resources (OER), free for re-use under a Creative Commons CC BY License.
-This repository, Constellate notebooks and this readme file reference to the Ithaka-Constellate repository but have been modified by Deborah Grbac for internal use at Università Cattolica del Sacro Cuore di Milano, email: deborah.grbac@unicatt.it
+This repository, Constellate notebooks and this readme file reference to the Ithaka-Constellate repository, but have been modified by Deborah Grbac for internal use at Università Cattolica del Sacro Cuore di Milano, email: deborah.grbac@unicatt.it
 
 How to create a copy of these notebooks:
 
@@ -25,7 +25,7 @@ For best results, we recommend a system meeting these specifications:
 * 16+ GB RAM
 * 30+ GB Disk Space
 * No GPU acceleration required
-Recommended local machine solutions for using Jupyter notebooks
+Recommended local machine solutions for using Jupyter notebooks, or alternatively a hosting solution.
 Local solutions can be classified into either JupyterLab or Integrated Development Environments (IDE)s. It can be difficult to install JupyterLab, so we share some recommended methods below. An IDE can be a more flexible tool than JupyterLab, and we make some recommendations of suitable IDEs below as well.
 
 Installing JupyterLab locally (the best solution)
@@ -133,23 +133,7 @@ Common text analysis packages used in these notebooks
 * wordcloud==1.9.2
 * zipp==3.19.2
 
-
-This repository contains Jupyter notebooks were created by ITHAKA for Constellate and last updated in June 2025. They should run in a local instance of Jupyter. Constellate was sunset on July 1st 2025. These notebooks have been modified and adapted according to local needs at Università Cattolica del Sacro Cuore di Milano.
 You can find the original Constellate repository at: https://github.com/ithaka/constellate-notebooks and a selection of class videos on our Youtube channel https://www.youtube.com/@Constellate_org that go with the notebooks.
-
-Topics
-ithaka-owner-labs
-Resources
- Readme
-Contributors
-7
-@nkelber
-@czcindy426
-@lawlesst
-@iandesj
-@mdlincoln
-@amykirchhoff
-@eskimoquinn
 
 Languages
 Jupyter Notebook
