@@ -1,6 +1,6 @@
 This repository is founded on Constellate notebooks.
-The original repository of Jupyter notebooks was designed by the educators at ITHAKA's Constellate project. The project was sunset on July 1, 2025. These notebooks are Open Educational Resources (OER), free for re-use under a Creative Commons CC BY License.
-This repository and this readme file have been modified by Deborah Grbac for internal use at Università Cattolica del Sacro Cuore di Milano, email: deborah.grbac@unicatt.it
+The original Jupyter notebooks repository was designed by the educators at ITHAKA's Constellate project. The project was sunset on July 1, 2025. This current repository  use and resuse Constellate notebooksare as Open Educational Resources (OER), free for re-use under a Creative Commons CC BY License.
+This repository, Constellate notebooks and this readme file reference to the Ithaka-Constellate repository but have been modified by Deborah Grbac for internal use at Università Cattolica del Sacro Cuore di Milano, email: deborah.grbac@unicatt.it
 
 How to create a copy of these notebooks:
 
