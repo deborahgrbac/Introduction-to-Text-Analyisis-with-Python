@@ -38,8 +38,8 @@ For those comfortable using the command line, we offer basic instructions for:
 * Mac OS X
 * Windows 10
   
-Not recommended local JupyterLab installation methods
-We do not recommend Anaconda because it can be difficult to install, troubleshoot, and uninstall. Anaconda installs a large suite of data science tools; many are not necessary for using these notebooks. Moreover, Anaconda can be difficult to properly un-install which makes it hard to switch if you would like to use another solution.
+Not recommended local JupyterLab installation methods.
+Using Anaconda is not recommend  because it can be difficult to install, troubleshoot, and uninstall. Anaconda installs a large suite of data science tools; many are not necessary for using these notebooks. Moreover, Anaconda can be difficult to properly un-install which makes it hard to switch if you would like to use another solution.
 
 A better solution is Miniconda, which installs far fewer applications on the machine. However, the difficulty of installing Miniconda is similar to JupyterLab by itself.
 
@@ -58,7 +58,7 @@ If you are technically savvy, Hugging Face Spaces and Digital Ocean offer relati
 GitHub Codespaces IDE.
 If you would like a full, cloud-based IDE, then GitHub Codespaces offers cloud access to VS Code which has support for working with Jupyter notebooks. Choose this option if you are familiar with VS Code and you would benefit from a tight integration with GitHub.
 
-Not recommended cloud-based solutions.
+Not recommended cloud-based solutions (Google Colab).
 Google Colab is a popular platform for using Jupyter notebooks because Google offers limited-access to GPU acceleration for model training. The Constellate notebooks do not include model training and do not require GPU acceleration. Instead, they use APIs to access GPU acceleration, which is often faster, easier, and cheaper.
 
 Outside of its limited, free GPU access, Google Colab is inferior to other cloud-based Jupyter notebook solutions. The user interface and functionality is closed, non-standard, and difficult to use for file management. Moreover, it lacks support for basic notebook features, including:
@@ -71,23 +71,6 @@ Outside of its limited, free GPU access, Google Colab is inferior to other cloud
 Deepnote is a useful platform for data science professionals with some advanced functionalities for working collaboratively and accessing data repositories. The additional features make it better for working data scientists than teachers and learners.
 
 Binder is a free platform useful for demonstrating notebooks, but it has no persistent storage. The speed and availability are not reliable.
-
-There are two main package managers for working with Python: pip and conda. (More advanced projects may use virtual environment, such as venv or poetry.
-
-Pip.
-Pip is the official Python package installer. Once Python is installed, you can generally use pip on the command line to manage packages.
-
-Installing a package
-pip install PACKAGENAME
-
-Update a package.
-pip install --upgrade PACKAGENAME
-
-Change to a particular version.
-pip install --pip install --upgrade PACKAGENAME==3.2.16
-
-Pip documentation
-See the official pip documentation and/or the Python Package Index (PyPi)
 
 Conda.
 The Conda package manager is usually part of an Anaconda solution, such as Anaconda Cloud, Anaconda, or Miniconda. It can be used from the command line, but there are also graphical ways to manage packages with Conda. See the particular documentation for the version of Anaconda you are using.
