@@ -2,7 +2,7 @@
 
 Created by Nathan Kelber for JSTOR Labs under Creative Commons CC BY License
 For questions/comments/improvements, email nathan.kelber@ithaka.org.
-Modified for internal use at Università Cattolica del Sacro Cuore di Milano, by Deborah Grbac, email deborah.grbac@unicatt.it
+Reused for internal use at Università Cattolica del Sacro Cuore di Milano, by Deborah Grbac, email deborah.grbac@unicatt.it, released with CC BY License.
 
 
 # Installing JupyterLab on your Windows 10 computer
