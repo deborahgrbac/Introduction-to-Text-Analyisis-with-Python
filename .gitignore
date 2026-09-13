@@ -1,1 +1,7 @@
 .ipynb_checkpoints
+# Large Shakespeare data files
+Pre-processing/pandas/data/shakespeare/*.jsonl.gz
+Pre-processing/pandas/data/shakespeare/*-unigrams.csv
+Pre-processing/pandas/data/shakespeare/*-bigrams.csv
+Pre-processing/pandas/data/shakespeare/*-trigrams.csv
+Pre-processing/pandas/data/shakespeare/*-bigrams.csv

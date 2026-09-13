@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "title": "The Digital Library",
+        "author": "Maria Rossi",
+        "year": 2021,
+        "country": "Italy",
+        "pages": 210,
+        "available": true
+    },
+    {
+        "id": 2,
+        "title": "Archives and Memory",
+        "author": "John Smith",
+        "year": 2019,
+        "country": "United Kingdom",
+        "pages": 185,
+        "available": true
+    },
+    {
+        "id": 3,
+        "title": "Text Analysis for Beginners",
+        "author": "Anna Bianchi",
+        "year": 2023,
+        "country": "Italy",
+        "pages": 260,
+        "available": false
+    },
+    {
+        "id": 4,
+        "title": "Data and Culture",
+        "author": "Claire Dubois",
+        "year": 2020,
+        "country": "France",
+        "pages": null,
+        "available": true
+    },
+    {
+        "id": 5,
+        "title": "Introduction to Metadata",
+        "author": null,
+        "year": 2022,
+        "country": "Germany",
+        "pages": 145,
+        "available": false
+    },
+    {
+        "id": 6,
+        "title": "Libraries in the AI Age",
+        "author": "Laura Green",
+        "year": 2024,
+        "country": "United States",
+        "pages": 198,
+        "available": true
+    }
+]
